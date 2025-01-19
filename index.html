@@ -88,9 +88,65 @@ https://www.tooplate.com/view/2125-artxibition
                             <i class="fa fa-arrow-up"></i>
                             <span>Event Starting in</span>
                         </div>
-                        <h6>SKN IEEE Student Branch Presents</h6>
-                        <h2>Techmyst 2.0 </h2>
-                       
+                        <div style="text-align: center; margin-top: 100px;">
+                            <h6 style="
+                                font-size: 2rem; 
+                                color: #ffffff; 
+                                text-transform: uppercase; 
+                                letter-spacing: 2px; 
+                                animation: fadeIn 2s ease-in-out;
+                                opacity: 0;
+                                animation-fill-mode: forwards;">
+                                SKN IEEE Student Branch Presents
+                            </h6>
+                            <h2 style="
+                                font-size: 6rem; 
+                                font-family: 'Orbitron', sans-serif; 
+                                font-weight: bold; 
+                                color: #ff0000; 
+                                text-transform: uppercase; 
+                                letter-spacing: 6px; 
+                                animation: glow 1.5s infinite alternate, slideIn 1.2s ease-out;
+                                opacity: 0;
+                                animation-fill-mode: forwards;">
+                                Techmyst 2.0
+                            </h2>
+                        </div>
+                        
+                        <!-- Add the animation keyframes as a <style> tag -->
+                        <style>
+                            @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+                        
+                            @keyframes glow {
+                                from {
+                                    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000;
+                                }
+                                to {
+                                    text-shadow: 0 0 20px #ff0000, 0 0 40px #ff0000, 0 0 60px #ff0000;
+                                }
+                            }
+                        
+                            @keyframes slideIn {
+                                from {
+                                    transform: translateY(50px);
+                                    opacity: 0;
+                                }
+                                to {
+                                    transform: translateY(0);
+                                    opacity: 1;
+                                }
+                            }
+                        
+                            @keyframes fadeIn {
+                                from {
+                                    opacity: 0;
+                                }
+                                to {
+                                    opacity: 1;
+                                }
+                            }
+                        </style>
+                        
                     </div>
                 </div>
             </div>
@@ -223,9 +279,9 @@ https://www.tooplate.com/view/2125-artxibition
         animation: scrollLeft 20s linear infinite;
     }
 </style>
-    <!-- *** Map ***
-    <div class="map-image">
-        <img src="assets/images/tm_bg1.jpeg" alt="Maps of 3 Venues">
+    <!-- *** Map *** -->
+    <!-- <div class="map-image">
+        <img src="assets/images/IEEECoverPage.jpg" alt="Maps of 3 Venues">
     </div> -->
 
 
@@ -235,7 +291,7 @@ https://www.tooplate.com/view/2125-artxibition
     <div class="coming-events">
         <div class="left-button">
             <div class="main-white-button">
-                <a href="tickets.html">All Events</a>
+                <a href="events.html">All Events</a>
             </div>
         </div>
         <div class="container">

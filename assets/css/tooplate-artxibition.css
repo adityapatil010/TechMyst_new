@@ -379,7 +379,7 @@ banner
 --------------------------------------------- 
 */
 .main-banner {
-  background-image: url(../images/bg2.jpg); /* Use a background inspired by the theme */
+  background-image: url(../images/about_bg.jpg); 
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -1360,7 +1360,7 @@ Shows Events Page
 */
 
 .page-heading-shows-events {
-  background-image: url(../images/shows_events_bg.jpg);
+  /* background-image: url(../images/shows_events_bg.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
   padding: 110px 0px;
